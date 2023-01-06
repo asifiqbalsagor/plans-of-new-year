@@ -27,3 +27,132 @@
 .icon-style{
      color: green;
 }
+
+
+/*     ----------------*/
+
+#bannder_Wrapper{
+     display:flex;
+     background-color: #F6F6F6;
+     text-align: end;
+     justify-content: space-between;
+     width: 85%;
+     margin: 0 auto;
+ }
+ 
+ .banner_text{
+ 
+     justify-items: end;
+     width: 400px;
+     font-family: 'Work Sans';
+     font-style: normal;
+     
+    
+ }
+ 
+ .banner_text h1{
+     font-size: 50px;
+     font-weight: 700;
+ }
+ 
+ .banner_btn{
+     padding: 14px 17px;
+     background-color: #F15B22;
+     border: none;
+     border-radius: 4px;
+     color: white;
+ }
+ 
+ #myPlans_wrapper{
+     text-align: center;
+     width: 85%;
+     margin: 0 auto;
+ }
+ 
+ #myPlans_wrapper h1{
+     text-align: center;
+     font-size: 35px;
+     margin-bottom: 40px;
+ }
+ 
+ 
+ 
+ .plans_icons{
+ 
+      display: flex;
+      justify-content: space-evenly;
+      margin-bottom: 80px;
+      margin-top: 80px;
+ }
+ 
+ #CollNow_Wrapper{
+ 
+     /* background-image: url(images/CallNow.png); */
+     background-size: cover;
+     background-repeat: no-repeat;
+  
+    
+     background:linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url(images/CallNow.png);
+     background-size: cover;;
+     width: 85%;
+     margin: 0 auto;
+ 
+ }
+ 
+ .CallNow_text{
+     color:white;
+     font-size: 22px;
+     margin-left: 60px;
+     margin-top: 25px;
+     margin-bottom: 15;
+ 
+     
+ }
+ 
+ .CallNow_btn{
+     padding: 14px 17px;
+     background-color: white;
+     border: none;
+     border-radius: 4px;
+     color: #F15B22;
+     margin-top: 0px;
+     margin-bottom: 20px;
+ }
+ 
+ input{
+ 
+     padding: 8px 30px;
+     border: none;
+     margin-bottom: 10px;
+ }
+ 
+ 
+ .footer_wrapper{
+     display: flex;
+     justify-content: space-between;
+     width: 85%;
+     margin: 0 auto;
+    
+ }
+ .footer_text{
+ 
+     width: 400px;
+ }
+ 
+ .social_icon{
+ 
+     margin-bottom: 20px;
+     margin-top: 15px;
+ }
+ .social_icon img{
+ 
+     width:30px;
+   
+ }
+ 
+ footer{
+     background-color: black;
+     width: 100%;
+    color: white;
+    margin-top: 50px;
+ }
