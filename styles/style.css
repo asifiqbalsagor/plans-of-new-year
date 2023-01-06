@@ -1,0 +1,29 @@
+*{
+     margin: 0;
+     font-family: 'Work Sans', sans-serif;
+}
+/* My failures of previous year section style */
+.container{
+     display: flex;
+     align-items: center;
+}
+.section-img{
+     padding:131px 100px;
+}
+.section-title{
+     font-weight: 700;
+     font-size: 40px;
+     color: #151414;
+}
+.section-description{
+     font-weight: 400;
+     font-size: 16px;
+     color: #444343;
+     margin-top: 24px;
+}
+.chck-icon{
+     margin-top: 16px;
+}
+.icon-style{
+     color: green;
+}
