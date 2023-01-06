@@ -7,11 +7,9 @@
      display: flex;
      align-items: center;
      width: 85%;
-     margin: 0 auto;
+     margin: 80px auto;
 }
-.section-img{
-     padding:131px 100px;
-}
+
 .section-title{
      font-weight: 700;
      font-size: 40px;
@@ -105,7 +103,7 @@
      background:linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url(../images/CallNow.png);
      background-size: cover;;
      width: 85%;
-     margin: 0 auto;
+     margin: 100px auto;
  
  }
  
@@ -127,6 +125,26 @@
      color: #F15B22;
      margin-top: 0px;
      margin-bottom: 20px;
+ }
+
+ #about_section{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     width: 85%;
+     margin: 50px auto;
+ }
+ #about_section span{
+     color: blue;
+     font-size: 45px;
+     
+ }
+ #about_section h1{
+    margin-bottom: 15px;
+     font-size: 35px;
+ }
+ #about_section img{
+     width: 600px;
  }
  
  input{
