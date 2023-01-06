@@ -6,6 +6,8 @@
 .container{
      display: flex;
      align-items: center;
+     width: 85%;
+     margin: 0 auto;
 }
 .section-img{
      padding:131px 100px;
@@ -29,8 +31,6 @@
 }
 
 
-/*     ----------------*/
-
 #bannder_Wrapper{
      display:flex;
      background-color: #F6F6F6;
@@ -46,6 +46,16 @@
      width: 400px;
      font-family: 'Work Sans';
      font-style: normal;
+     margin-right: 30px;
+     margin-top: 30px;
+     
+    
+ }
+ .banner_text p{
+ 
+     line-height: 20px;
+     margin-top: 10px;
+     margin-bottom: 15px;
      
     
  }
@@ -92,7 +102,7 @@
      background-repeat: no-repeat;
   
     
-     background:linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url(images/CallNow.png);
+     background:linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url(../images/CallNow.png);
      background-size: cover;;
      width: 85%;
      margin: 0 auto;
@@ -129,6 +139,7 @@
  
  .footer_wrapper{
      display: flex;
+     align-items: center;
      justify-content: space-between;
      width: 85%;
      margin: 0 auto;
